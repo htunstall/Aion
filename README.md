@@ -15,4 +15,4 @@ proceed.
 - If the provided data is noisy, the correct 2nd derivative should be selected. All tested data, even with significant noise, has successfully selected the correct 2nd derivative. However, there may be a dataset which has not been accounted for. 
 
 ### Development
-This project was developed soley by Harry Tunstall and is distributed under the Apache 2.0 Licence.
+This project was developed solely by Harry Tunstall and is distributed under the Apache 2.0 Licence.
