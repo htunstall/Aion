@@ -1,0 +1,57 @@
+# Changelog: Aion
+# Harry Tunstall  <github@htunstall.co.uk>
+All notable changes to this project will be documented in this file.
+
+## [1.0.2] - 2018-05-01
+### Added
+- The delimiting character is now automagically determinied and used as the delimiting character
+- The installation procedure is now also located in a seperate document
+
+### Changed
+- The definition of header length in calibration mode to my definition (previously used only in unbufffered)
+- Added some clarity to the install steps for people less comfortable with computers
+
+### Removed
+- Crashes caused because the input file didn't use commas as the delimiting character
+
+
+## [1.0.1] - 2018-04-17 
+### Added
+- A link to the Anaconda3 download page when Anaconda3 is mentioned
+- A walkthrough for running Aion. Located in the Introduction
+- Clarification on how paths are handled by Aion
+- Clarification on the definition of how the header and data is differentiated in the CHI file
+- Added a catch for a non existent log folder
+- Calibration test files
+
+### Changed
+- Minor spelling and text changes
+- Instructions for testing Aion
+
+### Removed
+- Squashed a bug in the calibration calculation when updating the master GUI 
+
+
+## [1.0.0] - 2018-04-11 
+### Added
+- sha-256 checksum for the *.zip of this project
+- Introduction to the full documentation
+
+### Changed
+- The implementation of drawing graphs in matplotlib. Now one procedure is called rather than repeating code.
+- The axis in the PDF to have the correct labels and units for second derivative.
+- The log level from 0 (all logs) to 20 (info)
+
+### Removed
+- Code used for the final stages of debugging
+
+
+## [0.4-dev] - 2018-04-10 
+### Added
+- This changelog file
+
+### Changed
+- Aion_documentation.docx with new information
+
+### Removed
+- Nothing
